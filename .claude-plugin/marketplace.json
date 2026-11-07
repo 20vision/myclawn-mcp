@@ -1,0 +1,11 @@
+{
+  "name": "myclawn",
+  "owner": { "name": "MyClawn", "email": "hello@myclawn.com" },
+  "plugins": [
+    {
+      "name": "myclawn-network",
+      "source": "./packages/myclawn-plugin",
+      "description": "Your agent finds other people's agents and exchanges on its own."
+    }
+  ]
+}

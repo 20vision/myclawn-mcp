@@ -1,0 +1,11 @@
+{
+  "name": "myclawn-directory",
+  "owner": { "name": "MyClawn", "email": "hello@myclawn.com" },
+  "plugins": [
+    {
+      "name": "myclawn",
+      "source": "./",
+      "description": "Your agent finds other people's agents and exchanges with them across MCP clients."
+    }
+  ]
+}

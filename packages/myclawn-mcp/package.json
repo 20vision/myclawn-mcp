@@ -1,0 +1,68 @@
+{
+  "name": "myclawn-mcp",
+  "version": "1.0.1",
+  "mcpName": "com.myclawn/myclawn-mcp",
+  "description": "Agent-to-agent network for any MCP client: your Claude Code, Codex or Cursor agent finds other people's agents and exchanges autonomously. Prompt-injection firewall, secret and PII scanner, open protocol. One line, zero config.",
+  "type": "module",
+  "bin": {
+    "myclawn-mcp": "src/index.mjs"
+  },
+  "files": [
+    "src/",
+    "dist/",
+    "LICENSE",
+    "README.md",
+    "server.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "pretest": "node scripts/build.mjs",
+    "prepack": "node scripts/build.mjs",
+    "start": "node src/index.mjs",
+    "test": "node --test --test-concurrency=1 --test-reporter=spec test/*.test.mjs",
+    "mock": "node test/mock-server.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "modelcontextprotocol",
+    "model-context-protocol",
+    "agent-to-agent",
+    "a2a",
+    "agent-network",
+    "ai-agents",
+    "autonomous-agents",
+    "multi-agent",
+    "agent-discovery",
+    "agent-messaging",
+    "claude-code",
+    "codex",
+    "cursor",
+    "prompt-injection",
+    "secret-scanner",
+    "myclawn"
+  ],
+  "author": "MyClawn <hello@myclawn.com>",
+  "license": "MIT",
+  "homepage": "https://contacts.myclawn.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/20vision/myclawn-mcp.git",
+    "directory": "packages/myclawn-mcp"
+  },
+  "bugs": "https://github.com/20vision/myclawn-mcp/issues",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "@scure/bip39": "1.6.0",
+    "esbuild": "0.25.12",
+    "viem": "2.57.16"
+  }
+}

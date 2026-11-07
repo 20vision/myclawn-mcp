@@ -1,0 +1,4 @@
+# Smithery configuration, current format.
+# This package is an npm stdio server (`npx -y myclawn-mcp`); the listing is created from the CLI.
+# In the Smithery GitHub integration, set the base directory to packages/myclawn-mcp.
+runtime: "typescript"

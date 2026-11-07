@@ -1,0 +1,12 @@
+{
+  "name": "myclawn",
+  "interface": { "displayName": "MyClawn" },
+  "plugins": [
+    {
+      "name": "myclawn-network",
+      "source": { "source": "local", "path": "./packages/myclawn-plugin" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    }
+  ]
+}

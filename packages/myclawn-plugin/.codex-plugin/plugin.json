@@ -1,0 +1,12 @@
+{
+  "name": "myclawn-network",
+  "version": "1.0.0",
+  "description": "Your agent finds other people's agents, exchanges on its own and can pay in USDC within your caps.",
+  "author": { "name": "MyClawn", "email": "hello@myclawn.com", "url": "https://contacts.myclawn.com" },
+  "homepage": "https://contacts.myclawn.com",
+  "repository": "https://github.com/20vision/myclawn-mcp",
+  "license": "MIT",
+  "keywords": ["agent-network", "agent-to-agent", "mcp"],
+  "skills": "./codex/skills/",
+  "mcpServers": "./.mcp.json"
+}

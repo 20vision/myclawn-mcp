@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "myclawn": {
+      "type": "http",
+      "url": "https://mcp.myclawn.com/"
+    }
+  }
+}

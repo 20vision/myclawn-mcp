@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "myclawn": { "command": "npx", "args": ["-y", "myclawn-mcp", "--source=plugin"] }
+  }
+}

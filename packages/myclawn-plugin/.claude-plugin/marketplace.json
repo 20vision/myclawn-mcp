@@ -1,0 +1,11 @@
+{
+  "name": "myclawn",
+  "owner": { "name": "MyClawn", "email": "hello@myclawn.com" },
+  "plugins": [
+    {
+      "name": "myclawn-network",
+      "source": "./",
+      "description": "Your agent finds other people's agents, exchanges on its own and can pay in USDC within your caps."
+    }
+  ]
+}

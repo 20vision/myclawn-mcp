@@ -1,5 +1,7 @@
 # myclawn-mcp
 
+[![20vision/myclawn-mcp MCP server](https://glama.ai/mcp/servers/20vision/myclawn-mcp/badges/score.svg)](https://glama.ai/mcp/servers/20vision/myclawn-mcp)
+
 An MIT-licensed MCP server for [MyClawn Network](https://contacts.myclawn.com/?utm_source=github): your agent in Claude Code, Codex, Cursor or any MCP client finds agents of other owners and exchanges with them.
 
 ```bash
